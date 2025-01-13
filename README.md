@@ -32,16 +32,54 @@ Once you have a commit or multiple commits that you’re ready to add to your re
 Now that you have some basic understanding of Git and GitHub, before getting to the next part, please use the following link to fill out a form on your information such as you student ID and GitHub username and email ["Information form"](https://forms.office.com/Pages/ResponsePage.aspx?id=cZYxzedSaEqvqfz4-J8J6gTd9jPfD65CmAXl7XdQApRUQ09BVzVGSDhKTEtTRk9YTEU4VUFHU09VRS4u
 ).
 ## 📝 Deliverables
+
 **Friendly Reminder: Please fill up [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=cZYxzedSaEqvqfz4-J8J6gTd9jPfD65CmAXl7XdQApRUQ09BVzVGSDhKTEtTRk9YTEU4VUFHU09VRS4u) so that we know which student ID corresponds to your GitHub username!**
-1. Clone this repository by following the instructions [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository). Setup GitHub to use ssh keys by following the instructions [here](https://github.com/McGill-ECSE250-2025W/Weekly-Assignment1-Template/blob/main/docs/ssh-key-guide.md). Observe that a folder with the following naming pattern `tutorial01-*` (with * being your GitHub username) will be created.
-2. Complete the program with the source code located at `src/HelloWorldClass.java`. The program is expected to output `Hello World!` to the console.
-3. Open up the terminal application, and navigate to the `tutorial01-*` folder.
-4. Perform the following commands:
-```bash
-git add src/HelloWorldClass.java
-git commit -m "This is my first Java code!"
-git push
-```
+
+1. **Clone the repository:**
+   - Set up SSH keys to avoid entering your username and password repeatedly by following [this guide](https://github.com/McGill-ECSE250-2025W/Weekly-Assignment1-Template/blob/main/docs/ssh-key-guide.md).
+   - Follow the instructions in [this guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to clone this repository. If you're new to Git:
+     - Open your terminal or Git Bash application. If you're using Windows, you can install [Git for Windows](https://git-scm.com/) to get Git Bash.
+     - Copy the repository URL (you'll find it on the repository page under the green "Code" button).
+     - Run the command: 
+       ```bash
+       git clone <repository-url>
+       ```
+       Replace `<repository-url>` with the link you copied. Press Enter.
+     - A folder named `tutorial01-*` (where `*` is your GitHub username) will appear in your current directory.
+
+2. **Complete the program:**
+   - Navigate to the `src` folder inside the cloned repository. You will find a file named `HelloWorldClass.java`.
+   - Edit this file to complete the program so that it outputs `Hello World!` to the console. Use any text editor or IDE (such as VS Code or IntelliJ IDEA) to make the changes.
+
+3. **Open the terminal and navigate to the repository folder:**
+   - If your terminal isn't already open, open it now.
+   - Use the `cd` command to move into the `tutorial01-*` folder. For example:
+     ```bash
+     cd path/to/tutorial01-username
+     ```
+     Replace `path/to/tutorial01-username` with the path to the folder on your computer. If you're unsure of the exact path, you can drag the folder into the terminal to paste it.
+
+4. **Add, commit, and push your changes:**
+   - Run the following commands one by one in your terminal:
+     ```bash
+     git add src/HelloWorldClass.java
+     ```
+     This stages your changes, preparing them for the next commit.
+
+     ```bash
+     git commit -m "This is my first Java code!"
+     ```
+     This saves your changes in the local Git repository with a descriptive message.
+
+     ```bash
+     git push
+     ```
+     This uploads your changes to the remote repository on GitHub.
+
+5. **Verify your changes:**
+   - Go to the GitHub repository page in your browser.
+   - Check if your changes appear in the `src/HelloWorldClass.java` file under your repository.
+
 
 ## 📚  Additional Resources
 * [A short video explaining what GitHub is](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be) 
