@@ -67,7 +67,7 @@ Now that you have some basic understanding of Git and GitHub, before getting to 
      This stages your changes, preparing them for the next commit.
 
      ```bash
-     git commit -m "This is my first Java code!"
+     git commit -m "This is my first Java code"
      ```
      This saves your changes in the local Git repository with a descriptive message.
 
