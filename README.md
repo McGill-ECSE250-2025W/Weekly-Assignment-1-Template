@@ -33,12 +33,12 @@ Now that you have some basic understanding of Git and GitHub, before getting to 
 ).
 ## 📝 Deliverables
 **Friendly Reminder: Please fill up [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=cZYxzedSaEqvqfz4-J8J6gTd9jPfD65CmAXl7XdQApRUQ09BVzVGSDhKTEtTRk9YTEU4VUFHU09VRS4u) so that we know which student ID corresponds to your GitHub username!**
-1. Clone this repository by following the instructions [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository). Optionally, setup GitHub to use ssh keys by following the instructions [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account). Observe that a folder with the following naming pattern `tutorial01-*` (with * being your GitHub username) will be created.
-2. Complete the program with the source code located at `src_dir/HelloWorldClass.java`. The program is expected to output `Hello World!` to the console.
+1. Clone this repository by following the instructions [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository). Optionally, setup GitHub to use ssh keys by following the instructions [here](https://github.com/McGill-ECSE250-2025W/Weekly-Assignment1-Template/docs/ssh-key-guide.md). Observe that a folder with the following naming pattern `tutorial01-*` (with * being your GitHub username) will be created.
+2. Complete the program with the source code located at `src/HelloWorldClass.java`. The program is expected to output `Hello World!` to the console.
 3. Open up the terminal application, and navigate to the `tutorial01-*` folder.
 4. Perform the following commands:
 ```bash
-git add src_dir/HelloWorldClass.java
+git add src/HelloWorldClass.java
 git commit -m "This is my first Java code!"
 git push
 ```
@@ -47,12 +47,11 @@ git push
 * [A short video explaining what GitHub is](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be) 
 * [Git and GitHub learning resources](https://docs.github.com/en/github/getting-started-with-github/git-and-github-learning-resources) 
 * [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-* [How to use GitHub branches](https://www.youtube.com/watch?v=H5GJfcp3p4Q&feature=youtu.be)
 * [Interactive Git training materials](https://githubtraining.github.io/training-manual/#/01_getting_ready_for_class)
-* [GitHub's Learning Lab](https://lab.github.com/)
+* [GitHub's Learning Lab](https://github.com/apps/github-learning-lab)
 * [Education community forum](https://education.github.community/)
 * [GitHub community forum](https://github.community/)
 
 ## Sources
-* This README is modified from the [original GitHub starter course](https://github.com/education/github-starter-course)
+* This README is modified from the [original GitHub starter course](https://github.com/classroom-resources/github-starter-course)
 
