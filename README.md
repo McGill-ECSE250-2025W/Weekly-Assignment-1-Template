@@ -33,7 +33,7 @@ Now that you have some basic understanding of Git and GitHub, before getting to 
 ).
 ## 📝 Deliverables
 
-**Friendly Reminder: Please fill up [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=cZYxzedSaEqvqfz4-J8J6gTd9jPfD65CmAXl7XdQApRUQ09BVzVGSDhKTEtTRk9YTEU4VUFHU09VRS4u) so that we know which student ID corresponds to your GitHub username!**
+**Friendly Reminder: Please fill up [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=cZYxzedSaEqvqfz4-J8J6gTd9jPfD65CmAXl7XdQApRUOUszSDk3WjhDUlk1N1AyWllGWVZUVjdaVi4u) so that we know which student ID corresponds to your GitHub username!**
 
 1. **Clone the repository:**
    - Set up SSH keys to avoid entering your username and password repeatedly by following [this guide](https://github.com/McGill-ECSE250-2025W/Weekly-Assignment1-Template/blob/main/docs/ssh-key-guide.md).
