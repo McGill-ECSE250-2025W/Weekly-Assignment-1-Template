@@ -33,7 +33,7 @@ Now that you have some basic understanding of Git and GitHub, before getting to 
 ).
 ## 📝 Deliverables
 **Friendly Reminder: Please fill up [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=cZYxzedSaEqvqfz4-J8J6gTd9jPfD65CmAXl7XdQApRUQ09BVzVGSDhKTEtTRk9YTEU4VUFHU09VRS4u) so that we know which student ID corresponds to your GitHub username!**
-1. Clone this repository by following the instructions [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository). Optionally, setup GitHub to use ssh keys by following the instructions [here](https://github.com/McGill-ECSE250-2025W/Weekly-Assignment1-Template/docs/ssh-key-guide.md). Observe that a folder with the following naming pattern `tutorial01-*` (with * being your GitHub username) will be created.
+1. Clone this repository by following the instructions [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository). Setup GitHub to use ssh keys by following the instructions [here](https://github.com/McGill-ECSE250-2025W/Weekly-Assignment1-Template/blob/main/docs/ssh-key-guide.md). Observe that a folder with the following naming pattern `tutorial01-*` (with * being your GitHub username) will be created.
 2. Complete the program with the source code located at `src/HelloWorldClass.java`. The program is expected to output `Hello World!` to the console.
 3. Open up the terminal application, and navigate to the `tutorial01-*` folder.
 4. Perform the following commands:
