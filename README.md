@@ -45,7 +45,7 @@ Now that you have some basic understanding of Git and GitHub, before getting to 
        git clone <repository-url>
        ```
        Replace `<repository-url>` with the link you copied. Press Enter.
-     - A folder named `tutorial01-*` (where `*` is your GitHub username) will appear in your current directory.
+     - A folder named `weekly-assignment-1-*` (where `*` is your GitHub username) will appear in your current directory.
 
 2. **Complete the program:**
    - Navigate to the `src` folder inside the cloned repository. You will find a file named `HelloWorldClass.java`.
@@ -53,11 +53,11 @@ Now that you have some basic understanding of Git and GitHub, before getting to 
 
 3. **Open the terminal and navigate to the repository folder:**
    - If your terminal isn't already open, open it now.
-   - Use the `cd` command to move into the `tutorial01-*` folder. For example:
+   - Use the `cd` command to move into the `weekly-assignment-1-*` folder. For example:
      ```bash
-     cd path/to/tutorial01-username
+     cd path/to/weekly-assignment-1-username
      ```
-     Replace `path/to/tutorial01-username` with the path to the folder on your computer. If you're unsure of the exact path, you can drag the folder into the terminal to paste it.
+     Replace `path/to/weekly-assignment-1-username` with the path to the folder on your computer. If you're unsure of the exact path, you can drag the folder into the terminal to paste it.
 
 4. **Add, commit, and push your changes:**
    - Run the following commands one by one in your terminal:
